@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url('images/datingjungle-KQhIT02gqFc-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+}
+
+img {
+  width: 25%;
+}
+
+/* .header {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.header {
+  
+  background-color: #01B0D3;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+.title {
+  color: #ffffff;
+  font-size: 42px;
+  margin-left: 50px;
+}
+
+.nav-bar ul {
+  display: flex;
+  /* flex-direction: row; */
+
+}
+
+.nav-bar ul li {
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color:  #242333;
+  text-decoration: underline;
+}
+
+.hero-title {
+  font-size: 46px;
+  color: #ffffff;
+}
+
+.hero-content {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 48px;
+}
+
+.about-p {
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 0;
+}
+
+.about-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.services {
+  background-image: url('images/erik-brolin-ZARfCYDaVg0-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.services p {
+  font-size: 48px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contact h2 {
+  font-size: 36px;
+}
+
+.phone {
+  font-size: 24px;
+}
+
+.email {
+  font-size: 24px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+
+  background: #01B0D3;
+  text-align: center;
+}
+
+.footer-p{
+  font-size: 24px;
+}
+
+.p-title{
+  color: #01B0D3;
+}
+
+@media (max-width: 749px) {
+
+  .header{
+    text-align: center;
+  }
+
+  .header-nav{
+    flex-direction: column;
+  }
+
+  li a{
+    font-size: 32px;
+  }
+
+  .title{
+    font-size: 60px;
+  }
+
+  .nav-bar ul {
+    
+    font-size: 24px;
+    flex-direction: column; 
+    
+  }  
+
+  .p-title{
+   margin-left: 100px;
+  }
+
+  .about-p{
+    margin: 25px;
+    padding: 10px;
+    line-height: 1.5;
+  }
+  .hero-title{
+    font-size: 60px;
+    margin: 4px;
+  }
+
+  .hero-content{
+    font-size: 32px;
+    margin: 5px;
+  }
+  .contact-btm{
+    font-size: 40px;
+  }
+
+  .email, .phone {
+    font-size: 32px;
+  }
+
+  
+}
